@@ -7,7 +7,6 @@
         <img  alt="css3" src="https://img.shields.io/badge/CSS3-004369?style=for-the-badge&logo=css3&logoColor=white"/>
         <img  alt="javascript" src="https://img.shields.io/badge/JavaScript-0e7178?style=for-the-badge&logo=javascript&logoColor=black"/>
     </div>
-#
 
-### Projeto Finalizado.
+## Projeto Finalizado.
 <img src='relogioFinal.png'>
