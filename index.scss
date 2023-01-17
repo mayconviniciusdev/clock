@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@500&display=swap');
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body 
+{display: flex;
+min-height: 100vh;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background: linear-gradient(150deg, #0E7178, #CCCC);
+font-family: 'Sofia Sans', sans-serif;}
+
+.clock 
+{width: 300px;
+height: 300px;
+    .risk
+    {width: 100%;
+    height: 100%;
+    padding: 50%;
+        .risks 
+        {width: 160px;
+        height: 5px;
+        position: absolute;
+        transform-origin: left;
+        display: flex;
+        justify-content: flex-end; 
+            .point 
+            {width: 15px;
+            background-color: #004369;} } } 
+        
+    .pointers 
+    {height: 100%;
+    padding-left: 50%;
+    padding-top: 50%;
+    margin-top: -100%;
+        .pointer
+        {transform-origin: left;
+        transform: rotate(0deg);
+        position: absolute;}
+
+        .pointerSecond 
+        {width: 100px;
+        height: 3px;
+        background-color: #F00;}
+
+        .pointerMinutes 
+        {width: 120px;
+        height: 5px;
+        background-color: #004369;}
+
+        .pointerHours 
+        {width: 70px;
+        height: 5px;
+        background-color: #004369;}
+
+        .centerPointer 
+        {width: 12px;
+        height: 12px;
+        background-color: #004369;
+        border-radius: 50%;
+        position: absolute;
+        margin-top: -5px;
+        margin-left: -5px;} }
+
+}
+
+.digital 
+{display: flex;
+align-items: center;
+justify-content: space-around;
+height: 200px;
+width: 550px;
+margin-top: 120px;
+background: transparent;
+border-radius: 5px;
+box-shadow: 0 8px 10px rgba(0, 0, 0, .5);
+    div 
+    {height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #F6F6F6;
+    background: rgba(61, 97, 119, .9);
+    border-radius: 7px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    letter-spacing: 3px;
+        span {font-size: 60px;}
+        span.time 
+        {font-size: 15px;} }
+}
+
+footer 
+{margin-top: 40px;
+color: #0E7178;
+font-size: 16px;
+    span 
+    {margin-left: 5px;
+    color: #004369};}
